@@ -11,7 +11,7 @@
 }
 
 .header {
-   
+
     width: 100%;
     background: #dedcdc;
     text-align: center;
@@ -54,7 +54,7 @@
 
 
 .left {
-width: 30px;
+    width: 30px;
     height: 40px;
     background-color: #666;
     color: #fff;
@@ -64,8 +64,8 @@ width: 30px;
     left: 30%;
     top: 300px;
     cursor: pointer;
-   
-   
+
+
 }
 
 
@@ -83,7 +83,7 @@ width: 30px;
     cursor: pointer;
     /*将按钮变成点击的*/
 
-        
+
 }
 
 .ggao {
@@ -180,76 +180,76 @@ footer {
 
 /*轮播*/
 
-          .carousel-container {
-              width: 100%;
-              overflow: hidden;
-              position: relative;
-          }
-    
-          .carousel-slide {
-              width: 100%;
-              height: 300px;
-              display: none;
-          }
-    
-          .carousel-image {
-              width: 100%;
-              height: 300px;
-              object-fit: cover;
-              display: block;
-          }
-    
-          .carousel-slide.active {
-              display: block;
-          }
-    
-          .prev,
-          .next {
-              cursor: pointer;
-              position: absolute;
-              top: 50%;
-              transform: translateY(-50%);
-              color: white;
-              font-size: 24px;
-              background-color: rgba(0, 0, 0, 0.5);
-              padding: 10px;
-              display: none;
-          }
-    
-          .prev {
-              left: 0;
-          }
-    
-          .next {
-              right: 0;
-          }
-    
-          .carousel-container:hover .prev,
-          .carousel-container:hover .next {
-              display: block;
-          }
-    
-          .indicators {
-              position: absolute;
-              bottom: 10px;
-              left: 50%;
-              transform: translateX(-50%);
-          }
-    
-          .indicator {
-              cursor: pointer;
-              width: 10px;
-              height: 10px;
-              border: 2px solid white;
-              border-radius: 50%;
-              background-color: rgba(0, 0, 0, 0.5);
-              display: inline-block;
-              margin: 0 5px;
-          }
-    
-          .indicator.active {
-              background-color: white;
-          }
+.banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    width: 100%;
+    height: 300px;
+    display: none;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.banner:hover .prev,
+.banner:hover .next {
+    display: block;
+}
+
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indicator {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.indicator.active {
+    background-color: white;
+}
 
 /*登录*/
 /* 导航栏中的登录注册样式 */

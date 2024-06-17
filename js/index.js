@@ -32,12 +32,12 @@ let autoPlayInterval = setInterval(() => {
 }, 3000); // 3000毫秒（3秒）切换一次
 
 // 鼠标悬停时停止自动播放
-document.querySelector('.carousel-container').addEventListener('mouseover', () => {
+document.querySelector('.banner').addEventListener('mouseover', () => {
     clearInterval(autoPlayInterval);
 });
 
 // 鼠标离开时开始自动播放
-document.querySelector('.carousel-container').addEventListener('mouseout', () => {
+document.querySelector('.banner').addEventListener('mouseout', () => {
     autoPlayInterval = setInterval(() => {
         moveSlide(1);
     }, 3000);
