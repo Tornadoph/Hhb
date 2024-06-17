@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav .footer {
+    float: left;
+    width: 100%;
+}
+
+.header {
+
+    width: 100%;
+    background: #dedcdc;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.nav {
+    background-color: #333;
+}
+
+
+
+.nav a {
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.nav a:hover {
+    background: #bbb;
+    color: #000;
+}
+
+.navbar-right .line {
+    margin-top: 15px;
+    color: #777;
+}
+
+.navbar-right .glyphicon {
+    margin-right: 5px;
+}
+
+.a img {
+    width: 101%;
+    height: 100%;
+    margin: -20px;
+}
+
+/*内容*/
+.container h2,
+.container h4,
+.container h3,
+.container p {
+    text-align: center;
+}
+
+.container h2,
+.container h4 {
+    line-height: 2;
+}
+
+.container .thumbnail {
+    border: none;
+}
+
+
+
+
+/*版尾*/
+.footer .row div {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer .row div {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer .row .col-lg-12 {
+    margin-top: 0px;
+}
+
+
+
+.container .row ul {
+    list-style: none;
+    margin-left: 40%;
+}
+
+.container .row ul li,
+.container .row ul li h2 {
+    float: left;
+}
+
+.container .row ul .selected {
+    color: #80FFFF;
+}
+
+.container .row form {
+    clear: both;
+    border: 1px solid #e7e7e7;
+    background: #f8f8f8;
+    padding-top: 50px;
+}
+
+.container .row form>p {
+    margin-bottom: 15px;
+}
+
+.container .row form>p input {
+    border: 1px solid #ccc;
+    width: 20%;
+    font-size: 12px;
+    height: 30px;
+}
+
+.container .row form>p input[type=submit],
+.container .row form>p input[type=reset] {
+    width: 80px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container .row .mes,
+.container .row .mesg {
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+@media all and (max-width: 265px) {
+    .container .row form>p {
+        font-size: 70%;
+    }
+
+    .container .row form>p>input {
+        width: 80%;
+
+    }
+}
+
+@media all and (max-width: 200px) {
+    .container .row form>p {
+        font-size: 70%;
+    }
+
+    .container .row form>p>input {
+        width: 80%;
+
+    }
+
+    .navbar-brand img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.a img {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*登录*/
+/* 导航栏中的登录注册样式 */
+.login-register {
+    float: right;
+    /* 将登录注册框定位到导航栏的右侧 */
+    margin-right: 30px;
+    /* 添加一些外边距 */
+}
+
+.login-register a {
+    text-decoration: none;
+    /* 去除下划线 */
+    color: #fff;
+    /* 文本颜色为白色 */
+    padding: 10px 15px;
+    /* 添加内边距 */
+    border-radius: 5px;
+    /* 添加圆角边框 */
+    transition: background-color 0.3s ease;
+    /* 鼠标悬停时的过渡效果 */
+}
+
+.login-register a:hover {
+    background-color: #333;
+    /* 鼠标悬停时的背景颜色 */
+}

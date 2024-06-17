@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+
+    <div class="nav">
+<a href="index.html">首页</a>
+<a href="jdjs.html">景点介绍</a>
+<a href="lxwm.html">联系我们</a>
+
+<div class="login-register">
+    <a href="denglu.html">登录</a> |
+    <a href="zc.html">注册</a>
+        </div>
+    </div>
+
+    <div class="a"><img src="image/lvyou.webp"></div>
+
+    <!-- 注册内容 -->
+    <div class="container">
+        <div class="row">
+                <ul>
+                    <li class="selected">
+                        <h2><a href="登录.html">登录</a></h2>
+                        <h2 style="color: black">|</h2>
+                    </li>
+                    <li>
+                        <h2><a href="注册.html">注册</a></h2>
+                    </li>
+                </ul>
+            <div class="col-md-12">
+                <form action="your-register-processing-url" method="post">
+                    <p class="mesg">错误提示</p>
+                    <p>账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：<input type="text" name="username" id="username"
+                            placeholder="请输入账号" pattern="^[a-zA-Z][a-zA-Z0-9_]{4,15}$" required></p>
+                    <p>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" name="password" id="password"
+                            placeholder="请输入密码" pattern="^[a-zA-Z]\w{5,17}$" required></p>
+                    <p>确认密码：<input type="password" name="confirm_password" id="confirm_password" placeholder="请再次输入密码"
+                            pattern="^[a-zA-Z]\w{5,17}$" required></p>
+                    <p>手机号码：<input type="tel" name="phone" id="phone" placeholder="请输入手机号码" pattern="^\d{11}$" required>
+                    </p>
+                    <p>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：<input type="email" name="email" id="email"
+                            placeholder="请输入邮箱" pattern="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required></p>
+                    <p><input type="submit" value="注册" class="reg"><input type="reset" value="重置"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><p> MADE BY QZXXGCuniversity HHB</p></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

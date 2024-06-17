@@ -1,0 +1,129 @@
+.biaodan {
+    width: 4000px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.biaodan label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.biaodan input[type="text"],
+.biaodan input[type="email"],
+.biaodan textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.biaodan textarea {
+    height: 100px;
+}
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header .nav .footer {
+    float: left;
+    width: 100%;
+}
+
+.header {
+
+    background: #ccc;
+    padding: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav {
+    background-color: #333;
+}
+
+
+
+.nav a {
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.nav a:hover {
+    background: #bbb;
+    color: #000;
+}
+
+.pleft {
+    width: 300px;
+    float: left;
+
+
+
+}
+
+.pright {
+    width: 300px;
+    float: right;
+
+
+
+}
+
+.pcontent {
+    margin: 0 400px;
+}
+
+
+
+
+#footer {
+    width: 100%;
+    height: 103px;
+    background: #020202;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 65px;
+}
+
+.ad-container {
+    position: fixed;
+    /* 固定位置 */
+    top: 30%;
+    /* 垂直居中 */
+    left: 0;
+    /* 左侧固定 */
+    transform: translateY(-50%);
+    /* 水平居中 */
+    z-index: 1000;
+    /* 确保广告层叠在其他元素之上 */
+
+    
+    /* 默认不显示 */
+}
+
+.ad-image {
+    max-width: 200px;
+    /* 广告图片最大宽度 */
+    max-height: 100px;
+    /* 广告图片最大高度 */
+}

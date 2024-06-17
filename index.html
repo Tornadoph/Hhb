@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<link rel="stylesheet" href="css/index.css">
+
+<body>
+
+
+
+    <div class="nav">
+        
+        <a href="index.html">首页</a>
+        <a href="jdjs.html">景点介绍</a>
+        <a href="lxwm.html">联系我们</a>
+
+        <div class="login-register">
+            <a href="denglu.html">登录</a> |
+            <a href="zc.html">注册</a>
+        </div>
+    </div>
+
+    <header>
+        <!-- 轮播 JavaScript插件：carousel-->
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img class="carousel-image" src="image/lunbo1.jpg" alt="Image 1">
+            </div>
+            <div class="carousel-slide">
+                <img class="carousel-image" src="image/lunbo2.jpg" alt="Image 2">
+            </div>
+            <div class="carousel-slide">
+                <img class="carousel-image" src="image/lunbo3.jpg" alt="Image 3">
+            </div>
+            <!-- 根据需要添加更多图片 -->
+            <div class="prev" onclick="moveSlide(-1)">&#10094;</div>
+            <div class="next" onclick="moveSlide(1)">&#10095;</div>
+            <div class="indicators">
+                <div class="indicator active" onclick="jumpSlide(0)"></div>
+                <div class="indicator" onclick="jumpSlide(1)"></div>
+                <div class="indicator" onclick="jumpSlide(2)"></div>
+                <!-- 根据需要添加更多指示器 -->
+            </div>
+        </div>
+
+
+    </header>
+
+<div class="current-time">
+    <script>
+        function updateTime() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            hours = hours < 10 ? '0' + hours : hours;
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            var timeString = "当前时间为：" + hours + ":" + minutes + ":" + seconds;
+            document.querySelector('.current-time').textContent = timeString;
+        }
+
+        // 每秒更新时间
+        setInterval(updateTime, 1000);
+    </script>
+</div>
+
+
+    <section class="content">
+        <h1>泉信旅游社团</h1>
+        <p>欢迎来到泉信旅游社团，这里有数不尽的旅游景点仅供你参考</p>
+        <!-- 这里可以添加更多关于青藏高原的介绍内容 -->
+    </section>
+
+    <section class="recommend">
+        <h2>推荐旅游地点</h2>
+        <div class="place">
+            <img src="image/1.jpg" alt="地点1">
+            <h3>北京天安门</h3>
+            <p>天安门（Tian'anmen），坐落在中华人民共和国首都北京市的中心、故宫的南端，与天安门广场以及人民英雄纪念碑、
+                毛主席纪念堂、人民大会...... <a href="景点介绍.html">更多详情请点击这里</a></p>
+        </div>
+        
+        <div class="place">
+            <img src="image/2.jpg" alt="地点2">
+            <h3>福州三坊七巷</h3>
+            <p>三坊七巷座落于福建省福州市鼓楼区南后街，总占地约45公顷，
+                是从南后街两旁从北至南依次排列的坊巷总称......<a href="景点介绍.html">更多详情请点击这里</a></p>
+        </div>
+
+        <div class="place">
+            <img src="image/4.jpg" alt="地点3">
+            <h3>漳州古城</h3>
+            <p>漳州古城，位于“海滨邹鲁”、国家历史文化名城漳州。古城是漳州最有价值的核心区，
+                同时也是全国第一个国家级文化生态保护区......<a href="景点介绍.html">更多详情请点击这里</a></p>
+        </div>
+        <div class="place">
+            <img src="image/6.jpg" alt="地点3">
+            <h3>湖南天门山</h3>
+            <p>天门山国家森林公园位于湖南省张家界市，是国家5A级景区。
+                其中的天门山索道于1999年5月份开始立项2005年8月份运行。
+                天门山索道线路斜长7455米........<a href="景点介绍.html">更多详情请点击这里</a></p>
+        </div>
+
+
+        
+
+    </section>
+
+
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    </div>
+
+    <div id="footer">
+
+        <p> MADE BY QZXXGCuniversity HHB</p>
+
+    </div>
+
+
+
+</body>
+
+
+</html>

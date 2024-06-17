@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav .footer {
+    float: left;
+    width: 100%;
+}
+
+.header {
+   
+    width: 100%;
+    background: #dedcdc;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.nav {
+    background-color: #333;
+}
+
+
+
+.nav a {
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.nav a:hover {
+    background: #bbb;
+    color: #000;
+}
+
+.pleft {
+
+    width: 300px;
+    float: left;
+}
+
+.pright {
+    width: 300px;
+    float: right;
+}
+
+.pcontent {
+    margin: 0 400px;
+}
+
+
+.left {
+width: 30px;
+    height: 40px;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 30%;
+    top: 300px;
+    cursor: pointer;
+   
+   
+}
+
+
+.right {
+    width: 30px;
+    height: 40px;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+
+    position: absolute;
+    right: 30%;
+    top: 300px;
+    cursor: pointer;
+    /*将按钮变成点击的*/
+
+        
+}
+
+.ggao {
+    width: 30px;
+    height: 50px;
+}
+
+
+#footer {
+    width: 100%;
+    height: 103px;
+    background: #020202;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 65px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-image {
+    width: 100%;
+    max-height: 300px;
+    /* 减小顶图高度 */
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+    /* 使内容区域占据剩余空间 */
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    /* 居中内容文本 */
+}
+
+.recommend {
+    display: flex;
+    flex-wrap: wrap;
+    /* 允许换行 */
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.place {
+    width: 30%;
+    /* 推荐地点的宽度 */
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    /* 添加过渡效果 */
+}
+
+.place:hover {
+    transform: translateY(-5px);
+    /* 鼠标悬停时轻微上移 */
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 200px;
+    /* 设置图片最大高度 */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+    /* 将页脚推到底部 */
+}
+
+
+/*轮播*/
+
+          .carousel-container {
+              width: 100%;
+              overflow: hidden;
+              position: relative;
+          }
+    
+          .carousel-slide {
+              width: 100%;
+              height: 300px;
+              display: none;
+          }
+    
+          .carousel-image {
+              width: 100%;
+              height: 300px;
+              object-fit: cover;
+              display: block;
+          }
+    
+          .carousel-slide.active {
+              display: block;
+          }
+    
+          .prev,
+          .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              color: white;
+              font-size: 24px;
+              background-color: rgba(0, 0, 0, 0.5);
+              padding: 10px;
+              display: none;
+          }
+    
+          .prev {
+              left: 0;
+          }
+    
+          .next {
+              right: 0;
+          }
+    
+          .carousel-container:hover .prev,
+          .carousel-container:hover .next {
+              display: block;
+          }
+    
+          .indicators {
+              position: absolute;
+              bottom: 10px;
+              left: 50%;
+              transform: translateX(-50%);
+          }
+    
+          .indicator {
+              cursor: pointer;
+              width: 10px;
+              height: 10px;
+              border: 2px solid white;
+              border-radius: 50%;
+              background-color: rgba(0, 0, 0, 0.5);
+              display: inline-block;
+              margin: 0 5px;
+          }
+    
+          .indicator.active {
+              background-color: white;
+          }
+
+/*登录*/
+/* 导航栏中的登录注册样式 */
+.login-register {
+    float: right;
+    /* 将登录注册框定位到导航栏的右侧 */
+    margin-right: 30px;
+    /* 添加一些外边距 */
+}
+
+.login-register a {
+    text-decoration: none;
+    /* 去除下划线 */
+    color: #fff;
+    /* 文本颜色为白色 */
+    padding: 10px 15px;
+    /* 添加内边距 */
+    border-radius: 5px;
+    /* 添加圆角边框 */
+    transition: background-color 0.3s ease;
+    /* 鼠标悬停时的过渡效果 */
+}
+
+.login-register a:hover {
+    background-color: #333;
+    /* 鼠标悬停时的背景颜色 */
+}
+
+
+.current-time {
+    float: right;
+    /* 将时间显示定位到右上角 */
+    margin-right: 20px;
+    /* 添加一些外边距 */
+    margin-top: 10px;
+    /* 添加一些上边距 */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+    /* 文本颜色 */
+}
